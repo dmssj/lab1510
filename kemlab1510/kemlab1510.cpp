@@ -1,4 +1,4 @@
-#include <iostream>     //использование процедур
+#include <iostream>     //использование процедур и функций
 
 int main() {
     setlocale(LC_ALL, "RU");
