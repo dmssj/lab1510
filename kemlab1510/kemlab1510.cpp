@@ -1,4 +1,4 @@
-#include <iostream>     //использование процедур
+#include <iostream>     //использование процедур и функций
 
 int main() {
     setlocale(LC_ALL, "RU");
@@ -11,9 +11,9 @@ int main() {
         sum_куб += D[i] * D[i] * D[i];
     }
 
-    std::cout << "сумма элементов " << sum << std::endl;
-    std::cout << "сумма квадратов " << sum_кв << std::endl;
-    std::cout << "сумма кубов " << sum_куб << std::endl;
+    std::cout << "сумма элементов  " << sum << std::endl;
+    std::cout << "сумма квадратов  " << sum_кв << std::endl;
+    std::cout << "сумма кубов  " << sum_куб << std::endl;
 
     return 0;
 }
